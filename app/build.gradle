@@ -49,18 +49,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-
- /*   def room_version = "2.2.5"
-
-    implementation "androidx.room:room-runtime:$room_version"
-    kapt "androidx.room:room-compiler:$room_version"
-*/
-    // optional - Kotlin Extensions and Coroutines support for Room
-   // implementation "androidx.room:room-ktx:$room_version"
-
-    // optional - Test helpers
-   // testImplementation "androidx.room:room-testing:$room_version"
-
     //Glide
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
@@ -70,11 +58,6 @@ dependencies {
     implementation 'com.intuit.ssp:ssp-android:1.0.6'
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
 
-    //imagePicker
- //   implementation 'com.github.bkhezry.android-image-picker:imagepicker:1.4.0'
-    // for experimental rx picker
-   // implementation 'com.github.esafirm.android-image-picker:rximagepicker:1.4.0'
-   // implementation 'com.github.florent37:inline-activity-result-kotlin:1.0.4'
     implementation 'com.github.nguyenhoanglam:ImagePicker:1.4.3'
 
     // Multidex
@@ -104,13 +87,9 @@ dependencies {
     implementation 'androidx.room:room-ktx:2.1.0-alpha06'
 
     kapt "com.android.databinding:compiler:3.5.2"
+
     //Materialization
     implementation 'com.google.android.material:material:1.1.0'
-   // implementation 'com.github.jkwiecien:EasyImage:3.0.4'
-   // implementation 'com.github.dhaval2404:imagepicker:1.7.4'
-   // implementation 'com.github.dhaval2404:imagepicker-support:1.7.1'
-
-  //  implementation 'com.github.florent37:inline-activity-result-kotlin:1.0.4'
 
 
 }

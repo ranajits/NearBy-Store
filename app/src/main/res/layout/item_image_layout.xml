@@ -4,9 +4,9 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/topBottomImage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:id="@+id/topBottomImage"
-        android:contentDescription="@null" />
+        android:contentDescription="@null"
+        android:scaleType="centerCrop" />
 </LinearLayout>

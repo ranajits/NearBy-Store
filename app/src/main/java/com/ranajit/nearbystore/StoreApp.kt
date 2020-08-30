@@ -16,7 +16,7 @@ class StoreApp : MultiDexApplication() {
 
     companion object {
         private var wApp: WeakReference<StoreApp>? =
-            WeakReference<StoreApp>(null)!!
+            WeakReference<StoreApp>(null)
         val instance: StoreApp get() = wApp?.get()!!
 
         val context: Context
